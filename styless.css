@@ -1,0 +1,14 @@
+body{
+  font-family:Arial;
+  background:skyblue;
+}
+.navbar{
+    background:pink;
+    color:violet;
+    padding: 12px;
+}
+button{
+    background:orange;
+    color:skyblue;
+    padding: 10px;
+}

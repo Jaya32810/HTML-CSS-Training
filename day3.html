@@ -1,0 +1,62 @@
+<!-- <--SUM OF TWO NUMBERS--> -->
+<!-- <html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    a:<input type="text" id="a">
+    b:<input type="text" id="b">
+    <button onclick="sum()">add</button>
+    <script src="day3.js">
+    </script>
+</body>
+</html> -->
+<!-- <--LOGIN FORM--> -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Form</title>
+</head>
+<body>
+
+    Username:
+    <input type="text" id="username"><br><br>
+
+    Password:
+    <input type="password" id="password"><br><br>
+
+    <button onclick="login()">Login</button>
+
+    <script src="day3.js"></script>
+</body>
+</html> -->
+
+let fruits = ["Apple", "Banana", "Mango"];
+
+console.log("Initial Array:", fruits);
+
+// push() → add element at the end
+fruits.push("Orange");
+console.log("After push:", fruits);
+
+// unshift() → add element at the beginning
+fruits.unshift("Grapes");
+console.log("After unshift:", fruits);
+
+// pop() → remove last element
+fruits.pop();
+console.log("After pop:", fruits);
+
+// shift() → remove first element
+fruits.shift();
+console.log("After shift:", fruits);
+
+// indexOf() → find index of an element
+let index = fruits.indexOf("Banana");
+console.log("Index of Banana:", index);
+
+// includes() → check if element exists
+let check = fruits.includes("Mango");
+console.log("Mango exists?", check);
+
